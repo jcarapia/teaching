@@ -3,8 +3,36 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+label {
+  font-weight: 500;
+}
+strong {
+  font-weight: 600;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
 
 .side-nav-ul {
   padding: 0;
   list-style: none;
+}
+
+.side-nav-ul li {
+  padding-bottom: 5px;
+}
+
+.main-content-container {
+  min-height: 100vh;
+  border: 1px solid #efecea;
+}
+
+/*Utilities */
+.margin-top-10 {
+  margin-top: 10px;
+}
+.margin-top-15 {
+  margin-top: 15px;
 }
