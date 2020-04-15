@@ -13,7 +13,14 @@ import { SectionOneReferencesComponent } from './section-one/section-one-referen
 import { SectionOneWrapUpComponent } from './section-one/section-one-wrap-up/section-one-wrap-up.component';
 
 import { SectionTwoComponent } from './section-two/section-two.component';
-
+import { SectionTwoIntroComponent } from './section-two/section-two-intro/section-two-intro.component';
+import { SectionTwoThoughtsComponent } from './section-two/section-two-thoughts/section-two-thoughts.component';
+import { SectionTwoPerspectivesComponent } from './section-two/section-two-perspectives/section-two-perspectives.component';
+import { SectionTwoVideoOneComponent } from './section-two/section-two-video-one/section-two-video-one.component';
+import { SectionTwoVideoTwoComponent } from './section-two/section-two-video-two/section-two-video-two.component';
+import { SectionTwoVideoDebriefComponent } from './section-two/section-two-video-debrief/section-two-video-debrief.component';
+import { SectionTwoReferencesComponent } from './section-two/section-two-references/section-two-references.component';
+import { SectionTwoWrapUpComponent } from './section-two/section-two-wrap-up/section-two-wrap-up.component';
 
 import { SectionThreeComponent } from './section-three/section-three.component';
 
@@ -35,9 +42,16 @@ const routes: Routes = [
   { path: 'sectionOneReferences', component: SectionOneReferencesComponent},
   { path: 'sectionOneWrapUp', component: SectionOneWrapUpComponent },
 
-
-
   { path: 'sectionTwo', component: SectionTwoComponent  },
+  { path: 'sectionTwoIntro', component: SectionTwoIntroComponent },
+  { path: 'sectionTwoThoughts', component: SectionTwoThoughtsComponent },
+  { path: 'sectionTwoPerspectives', component: SectionTwoPerspectivesComponent },
+  { path: 'sectionTwoVideoOne', component: SectionTwoVideoOneComponent },
+  { path: 'sectionTwoVideoTwo', component: SectionTwoVideoTwoComponent },
+  { path: 'sectionTwoVideoDebrief', component: SectionTwoVideoDebriefComponent },
+  { path: 'sectionTwoReferences', component: SectionTwoReferencesComponent},
+  { path: 'sectionTwoWrapUp', component: SectionTwoWrapUpComponent },
+
   { path: 'sectionThree', component: SectionThreeComponent  },
   { path: 'sectionFour', component: SectionFourComponent  },
   { path: 'sectionFive', component: SectionFiveComponent  },

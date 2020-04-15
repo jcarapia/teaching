@@ -29,6 +29,19 @@ textarea {
   border: 1px solid #efecea;
 }
 
+.factors-list-container {
+  display: flex;
+}
+.factors-list {
+  border: 1px solid #7e7fbf;
+  background-color: #b9b9f0;
+  margin: 5px;
+}
+
+.factors-list h4 {
+  text-align: center;
+}
+
 /*Utilities */
 .inline-block {
   display: inline-block !important;
@@ -41,4 +54,7 @@ textarea {
 }
 .margin-top-20 {
   margin-top: 20px;
+}
+.red {
+  color: red;
 }

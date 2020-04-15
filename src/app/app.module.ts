@@ -18,6 +18,14 @@ import { SectionOneEmpathyClassComponent } from './section-one/section-one-empat
 import { SectionOneQuizComponent } from './section-one/section-one-quiz/section-one-quiz.component';
 import { SectionOneWrapUpComponent } from './section-one/section-one-wrap-up/section-one-wrap-up.component';
 import { SectionOneReferencesComponent } from './section-one/section-one-references/section-one-references.component';
+import { SectionTwoIntroComponent } from './section-two/section-two-intro/section-two-intro.component';
+import { SectionTwoThoughtsComponent } from './section-two/section-two-thoughts/section-two-thoughts.component';
+import { SectionTwoPerspectivesComponent } from './section-two/section-two-perspectives/section-two-perspectives.component';
+import { SectionTwoVideoOneComponent } from './section-two/section-two-video-one/section-two-video-one.component';
+import { SectionTwoVideoTwoComponent } from './section-two/section-two-video-two/section-two-video-two.component';
+import { SectionTwoVideoDebriefComponent } from './section-two/section-two-video-debrief/section-two-video-debrief.component';
+import { SectionTwoReferencesComponent } from './section-two/section-two-references/section-two-references.component';
+import { SectionTwoWrapUpComponent } from './section-two/section-two-wrap-up/section-two-wrap-up.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +43,15 @@ import { SectionOneReferencesComponent } from './section-one/section-one-referen
     SectionOneEmpathyClassComponent,
     SectionOneQuizComponent,
     SectionOneWrapUpComponent,
-    SectionOneReferencesComponent
+    SectionOneReferencesComponent,
+    SectionTwoIntroComponent,
+    SectionTwoThoughtsComponent,
+    SectionTwoPerspectivesComponent,
+    SectionTwoVideoOneComponent,
+    SectionTwoVideoTwoComponent,
+    SectionTwoVideoDebriefComponent,
+    SectionTwoReferencesComponent,
+    SectionTwoWrapUpComponent
   ],
   imports: [
     BrowserModule,
