@@ -23,7 +23,13 @@ import { SectionTwoReferencesComponent } from './section-two/section-two-referen
 import { SectionTwoWrapUpComponent } from './section-two/section-two-wrap-up/section-two-wrap-up.component';
 
 import { SectionThreeComponent } from './section-three/section-three.component';
-
+import { SectionThreeIntroComponent } from './section-three/section-three-intro/section-three-intro.component';
+import { SectionThreeThoughtsComponent } from './section-three/section-three-thoughts/section-three-thoughts.component';
+import { SectionThreePerspectivesComponent } from './section-three/section-three-perspectives/section-three-perspectives.component';
+import { SectionThreeVideoComponent } from './section-three/section-three-video/section-three-video.component';
+import { SectionThreeVideoDebriefComponent } from './section-three/section-three-video-debrief/section-three-video-debrief.component';
+import { SectionThreeReferencesComponent } from './section-three/section-three-references/section-three-references.component';
+import { SectionThreeWrapUpComponent } from './section-three/section-three-wrap-up/section-three-wrap-up.component';
 
 import { SectionFourComponent } from './section-four/section-four.component';
 
@@ -53,6 +59,14 @@ const routes: Routes = [
   { path: 'sectionTwoWrapUp', component: SectionTwoWrapUpComponent },
 
   { path: 'sectionThree', component: SectionThreeComponent  },
+  { path: 'sectionThreeIntro', component: SectionThreeIntroComponent  },
+  { path: 'sectionThreeThoughts', component: SectionThreeThoughtsComponent  },
+  { path: 'sectionThreePerspectives', component: SectionThreePerspectivesComponent  },
+  { path: 'sectionThreeVideo', component: SectionThreeVideoComponent  },
+  { path: 'sectionThreeVideoDebrief', component: SectionThreeVideoDebriefComponent  },
+  { path: 'sectionThreeReferences', component: SectionThreeReferencesComponent  },
+  { path: 'sectionThreeWrapUp', component: SectionThreeWrapUpComponent  },
+
   { path: 'sectionFour', component: SectionFourComponent  },
   { path: 'sectionFive', component: SectionFiveComponent  },
 ];

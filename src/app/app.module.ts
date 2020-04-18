@@ -26,6 +26,13 @@ import { SectionTwoVideoTwoComponent } from './section-two/section-two-video-two
 import { SectionTwoVideoDebriefComponent } from './section-two/section-two-video-debrief/section-two-video-debrief.component';
 import { SectionTwoReferencesComponent } from './section-two/section-two-references/section-two-references.component';
 import { SectionTwoWrapUpComponent } from './section-two/section-two-wrap-up/section-two-wrap-up.component';
+import { SectionThreeIntroComponent } from './section-three/section-three-intro/section-three-intro.component';
+import { SectionThreeThoughtsComponent } from './section-three/section-three-thoughts/section-three-thoughts.component';
+import { SectionThreePerspectivesComponent } from './section-three/section-three-perspectives/section-three-perspectives.component';
+import { SectionThreeVideoComponent } from './section-three/section-three-video/section-three-video.component';
+import { SectionThreeVideoDebriefComponent } from './section-three/section-three-video-debrief/section-three-video-debrief.component';
+import { SectionThreeReferencesComponent } from './section-three/section-three-references/section-three-references.component';
+import { SectionThreeWrapUpComponent } from './section-three/section-three-wrap-up/section-three-wrap-up.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +58,14 @@ import { SectionTwoWrapUpComponent } from './section-two/section-two-wrap-up/sec
     SectionTwoVideoTwoComponent,
     SectionTwoVideoDebriefComponent,
     SectionTwoReferencesComponent,
-    SectionTwoWrapUpComponent
+    SectionTwoWrapUpComponent,
+    SectionThreeIntroComponent,
+    SectionThreeThoughtsComponent,
+    SectionThreePerspectivesComponent,
+    SectionThreeVideoComponent,
+    SectionThreeVideoDebriefComponent,
+    SectionThreeReferencesComponent,
+    SectionThreeWrapUpComponent
   ],
   imports: [
     BrowserModule,
