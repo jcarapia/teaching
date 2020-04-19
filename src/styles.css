@@ -52,6 +52,12 @@ textarea {
 .inline-block {
   display: inline-block !important;
 }
+.margin-top-0 {
+  margin-top: 0;
+}
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
 .margin-top-10 {
   margin-top: 10px;
 }
@@ -60,6 +66,21 @@ textarea {
 }
 .margin-top-20 {
   margin-top: 20px;
+}
+.margin-left-10 {
+  margin-left: 10px;
+}
+.margin-left-15 {
+  margin-left: 15px;
+}
+.margin-left-20 {
+  margin-left: 20px;
+}
+.margin-left-30 {
+  margin-left: 30px;
+}
+.margin-left-40 {
+  margin-left: 40px;
 }
 .red {
   color: red;

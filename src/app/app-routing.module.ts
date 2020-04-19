@@ -32,7 +32,14 @@ import { SectionThreeReferencesComponent } from './section-three/section-three-r
 import { SectionThreeWrapUpComponent } from './section-three/section-three-wrap-up/section-three-wrap-up.component';
 
 import { SectionFourComponent } from './section-four/section-four.component';
-
+import { SectionFourIntroComponent } from './section-four/section-four-intro/section-four-intro.component';
+import { SectionFourThoughtsComponent } from './section-four/section-four-thoughts/section-four-thoughts.component';
+import { SectionFourPerspectivesComponent } from './section-four/section-four-perspectives/section-four-perspectives.component';
+import { SectionFourDmisComponent } from './section-four/section-four-dmis/section-four-dmis.component';
+import { SectionFourActivityComponent } from './section-four/section-four-activity/section-four-activity.component';
+import { SectionFourDmisEmpathyComponent } from './section-four/section-four-dmis-empathy/section-four-dmis-empathy.component';
+import { SectionFourReferencesComponent } from './section-four/section-four-references/section-four-references.component';
+import { SectionFourWrapUpComponent } from './section-four/section-four-wrap-up/section-four-wrap-up.component';
 
 import { SectionFiveComponent } from './section-five/section-five.component';
 
@@ -67,7 +74,16 @@ const routes: Routes = [
   { path: 'sectionThreeReferences', component: SectionThreeReferencesComponent  },
   { path: 'sectionThreeWrapUp', component: SectionThreeWrapUpComponent  },
 
-  { path: 'sectionFour', component: SectionFourComponent  },
+  { path: 'sectionFour', component: SectionFourComponent },
+  { path: 'sectionFourIntro', component: SectionFourIntroComponent },
+  { path: 'sectionFourThoughts', component: SectionFourThoughtsComponent },
+  { path: 'sectionFourPerspectives', component: SectionFourPerspectivesComponent },
+  { path: 'sectionFourDMIS', component: SectionFourDmisComponent },
+  { path: 'sectionFourActivity', component: SectionFourActivityComponent },
+  { path: 'sectionFourDMISEmpathy', component: SectionFourDmisEmpathyComponent },
+  { path: 'sectionFourReferences', component: SectionFourReferencesComponent },
+  { path: 'sectionFourWrapUp', component: SectionFourWrapUpComponent },
+  
   { path: 'sectionFive', component: SectionFiveComponent  },
 ];
 

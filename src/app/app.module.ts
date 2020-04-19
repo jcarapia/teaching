@@ -33,6 +33,14 @@ import { SectionThreeVideoComponent } from './section-three/section-three-video/
 import { SectionThreeVideoDebriefComponent } from './section-three/section-three-video-debrief/section-three-video-debrief.component';
 import { SectionThreeReferencesComponent } from './section-three/section-three-references/section-three-references.component';
 import { SectionThreeWrapUpComponent } from './section-three/section-three-wrap-up/section-three-wrap-up.component';
+import { SectionFourIntroComponent } from './section-four/section-four-intro/section-four-intro.component';
+import { SectionFourThoughtsComponent } from './section-four/section-four-thoughts/section-four-thoughts.component';
+import { SectionFourPerspectivesComponent } from './section-four/section-four-perspectives/section-four-perspectives.component';
+import { SectionFourDmisComponent } from './section-four/section-four-dmis/section-four-dmis.component';
+import { SectionFourActivityComponent } from './section-four/section-four-activity/section-four-activity.component';
+import { SectionFourDmisEmpathyComponent } from './section-four/section-four-dmis-empathy/section-four-dmis-empathy.component';
+import { SectionFourReferencesComponent } from './section-four/section-four-references/section-four-references.component';
+import { SectionFourWrapUpComponent } from './section-four/section-four-wrap-up/section-four-wrap-up.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +73,15 @@ import { SectionThreeWrapUpComponent } from './section-three/section-three-wrap-
     SectionThreeVideoComponent,
     SectionThreeVideoDebriefComponent,
     SectionThreeReferencesComponent,
-    SectionThreeWrapUpComponent
+    SectionThreeWrapUpComponent,
+    SectionFourIntroComponent,
+    SectionFourThoughtsComponent,
+    SectionFourPerspectivesComponent,
+    SectionFourDmisComponent,
+    SectionFourActivityComponent,
+    SectionFourDmisEmpathyComponent,
+    SectionFourReferencesComponent,
+    SectionFourWrapUpComponent
   ],
   imports: [
     BrowserModule,
