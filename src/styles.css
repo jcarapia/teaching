@@ -42,6 +42,31 @@ textarea {
   text-align: center;
 }
 
+.final-thoughts-one {
+  background-color: #edca8a;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.final-thoughts-two {
+  background-color: #e4acf2;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.final-thoughts-three {
+  background-color: #d5dce6;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.final-thoughts-four {
+  background-color: #aef2d5;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
 /*Utilities */
 .border-grey {
   border: 1px solid grey;
@@ -105,5 +130,12 @@ textarea {
 }
 .no-padding-right {
   padding-right: 0 !important;
+}
+.aligned-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+.aligned-row::before {
+  display: block;
 }
 
