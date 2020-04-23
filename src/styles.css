@@ -67,6 +67,31 @@ textarea {
   padding-bottom: 5px;
 }
 
+.home-section-one {
+  margin: 10px;
+  border: 2px solid #edca8a;
+}
+.home-section-two { 
+  margin: 10px;
+  border: 2px solid #e4acf2;
+}
+.home-section-three {
+  margin: 10px;
+  border: 2px solid #d5dce6;
+}
+.home-section-four {
+  margin: 10px;
+  border: 2px solid #aef2d5;
+}
+.home-section-five {  
+  margin: 10px;
+  border: 2px solid maroon;  
+}
+.home-img {
+  max-height: 270px;
+}
+
+
 /*Utilities */
 .border-grey {
   border: 1px solid grey;
