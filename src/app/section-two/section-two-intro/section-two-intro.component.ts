@@ -12,6 +12,7 @@ export class SectionTwoIntroComponent implements OnInit {
 
   ngOnInit() {
     $('#introTwoModal').modal('show');
+    $('[data-toggle="popover"]').popover();
   }
 
 }
