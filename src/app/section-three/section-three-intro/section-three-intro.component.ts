@@ -12,6 +12,7 @@ export class SectionThreeIntroComponent implements OnInit {
 
   ngOnInit() {
     $('#introThreeModal').modal('show');
+    $('[data-toggle="popover"]').popover();
   }
 
 }

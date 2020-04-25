@@ -9,69 +9,149 @@ statements related to ESL teaching. Choose whether the statements are <strong cl
 
 <hr>
 <p class="margin-top-20">“Regardless of my students’ backgrounds and cultures, we’re all the same as people.”</p> 
-<p>ETHNOCENTRIC</p>
-<p class="red"><strong>Explanation</strong>: while this idea seems positive at first glance, it does not validate the student’s backgrounds as 
+<label class="radio-inline">
+  <input type="radio" name="question1" id="question1-1" value="ethnocentric" (change)="response('q1','ec')">ETHNOCENTRIC
+</label>
+<label class="radio-inline">
+  <input type="radio" name="question1" id="question1-2" value="ethnorelative" (change)="response('q1','er')">ETHNORELATIVE
+</label>
+
+<p class="margin-top-15" [ngClass]="answers.q1 == 'ec' ? 'green' : 'red'" *ngIf="answers.q1">
+ETHNOCENTRIC<br>  
+<strong>Explanation</strong>: while this idea seems positive at first glance, it does not validate the student’s backgrounds as 
 important enough to understand. This risks trivializing the differences that students may have with the
 teacher, as those differences may matter in the classroom environment. This would fit into the minimization 
 stage of the DMIS.</p>
 <hr>
 
 <p>“In my student’s home country, they drive on the wrong side of the road.” </p>
-<p>ETHNOCENTRIC</p>
-<p class="red"><strong>Explanation</strong>: the term “wrong side” implies that the speaker’s culture drives on the right side of the road. 
+<label class="radio-inline">
+    <input type="radio" name="question1" id="question2-1" value="ethnocentric" (change)="response('q2','ec')">ETHNOCENTRIC
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="question1" id="question2-2" value="ethnorelative" (change)="response('q2','er')">ETHNORELATIVE
+  </label>
+
+<p class="margin-top-15" [ngClass]="answers.q2 == 'ec' ? 'green' : 'red'" *ngIf="answers.q2">
+ETHNOCENTRIC<br>   
+<strong>Explanation</strong>: the term “wrong side” implies that the speaker’s culture drives on the right side of the road. 
 This exemplifies the speaker’s culture as central to reality. This could be considered part of the denial
 or defense stage of the DMIS.</p>
 <hr>
 
 <p>“It’s hard for my student to write in English because his native language is written backwards.” </p>
-<p>ETHNOCENTRIC</p>
-<p class="red"><strong>Explanation</strong>: the word “backward” is used pejoratively to describe another culture, and implies that the 
+<label class="radio-inline">
+    <input type="radio" name="question1" id="question3-1" value="ethnocentric" (change)="response('q3','ec')">ETHNOCENTRIC
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="question1" id="question3-2" value="ethnorelative" (change)="response('q3','er')">ETHNORELATIVE
+  </label>
+
+<p class="margin-top-15" [ngClass]="answers.q3 == 'ec' ? 'green' : 'red'" *ngIf="answers.q3">
+ETHNOCENTRIC<br>   
+<strong>Explanation</strong>: the word “backward” is used pejoratively to describe another culture, and implies that the 
 writing system is incorrect. This portrays the speaker’s culture as superior and the student’s culture as 
 inferior. This statement works within the Defense stage of the DMIS.</p>
 <hr>
 
 <p>“As long as we all speak the same language, there’s no problem.”</p>
-<p>ETHNOCENTRIC</p>
-<p class="red"><strong>Explanation</strong>: This statement discounts the existence of other cultures, and seemingly threatens to eliminate a 
+<label class="radio-inline">
+    <input type="radio" name="question1" id="question4-1" value="ethnocentric" (change)="response('q4','ec')">ETHNOCENTRIC
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="question1" id="question4-2" value="ethnorelative" (change)="response('q4','er')">ETHNORELATIVE
+  </label>
+
+<p class="margin-top-15" [ngClass]="answers.q4 == 'ec' ? 'green' : 'red'" *ngIf="answers.q4">
+ETHNOCENTRIC<br> 
+<strong>Explanation</strong>: This statement discounts the existence of other cultures, and seemingly threatens to eliminate a 
 cultural difference that may appear. This fits into the Denial stage of the DMIS.</p>
 <hr>
 
 <p>“I’m worried about my student; she never smiles when I greet her.” </p>
-<p>ETHNOCENTRIC</p>
-<p class="red"><strong>Explanation</strong>: This statement implies that smiling is part of a universal greeting, which is not always the case. 
+<label class="radio-inline">
+    <input type="radio" name="question1" id="question5-1" value="ethnocentric" (change)="response('q5','ec')">ETHNOCENTRIC
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="question1" id="question5-2" value="ethnorelative" (change)="response('q5','er')">ETHNORELATIVE
+  </label>
+
+<p class="margin-top-15" [ngClass]="answers.q5 == 'ec' ? 'green' : 'red'" *ngIf="answers.q5">
+ETHNOCENTRIC<br>   
+<strong>Explanation</strong>: This statement implies that smiling is part of a universal greeting, which is not always the case. 
 This prioritizes the speaker’s cultural norms over possible others.</p>
 <hr>
 
 <p>“My younger students always explain the material to the older students in their native language. 
 It’s a nice thing to see the younger people help their elders.” </p>
-<p>ETHNORELATIVE</p>
-<p class="red"><strong>Explanation</strong>: The speaker recognizes and shows respect for a cultural norm that may be different from
+<label class="radio-inline">
+    <input type="radio" name="question1" id="question6-1" value="ethnocentric" (change)="response('q6','ec')">ETHNOCENTRIC
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="question1" id="question6-2" value="ethnorelative" (change)="response('q6','er')">ETHNORELATIVE
+  </label>
+
+<p class="margin-top-15" [ngClass]="answers.q6 == 'er' ? 'green' : 'red'" *ngIf="answers.q6">
+ETHNORELATIVE<br>   
+<strong>Explanation</strong>: The speaker recognizes and shows respect for a cultural norm that may be different from
 a typical interaction in a classroom. This statement could fit into the Acceptance stage of the DMIS.</p>
 <hr>
 
 <p>“If a student is different from me, that’s not something to criticize; that’s something to appreciate.” </p>
-<p>ETHNORELATIVE</p>
-<p class="red"><strong>Explanation</strong>: This embraces other cultural norms and places the speaker’s culture in context with various
+<label class="radio-inline">
+    <input type="radio" name="question1" id="question7-1" value="ethnocentric" (change)="response('q7','ec')">ETHNOCENTRIC
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="question1" id="question7-2" value="ethnorelative" (change)="response('q7','er')">ETHNORELATIVE
+  </label>
+
+<p class="margin-top-15" [ngClass]="answers.q7 == 'er' ? 'green' : 'red'" *ngIf="answers.q7">
+ETHNORELATIVE<br> 
+<strong>Explanation</strong>: This embraces other cultural norms and places the speaker’s culture in context with various
 other cultures, which demonstrates an ethnorelative standpoint.</p>
 <hr>
 
 <p>“I notice that one student never calls me by my first name. Tomorrow I’ll ask him what they call their 
 teachers in his country.” </p>
-<p>ETHNORELATIVE</p>
-<p class="red"><strong>Explanation</strong>: This statement demonstrates interest in a different culture and a willingness to learn and
+<label class="radio-inline">
+    <input type="radio" name="question1" id="question8-1" value="ethnocentric" (change)="response('q8','ec')">ETHNOCENTRIC
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="question1" id="question8-2" value="ethnorelative" (change)="response('q8','er')">ETHNORELATIVE
+  </label>
+
+<p class="margin-top-15" [ngClass]="answers.q8 == 'er' ? 'green' : 'red'" *ngIf="answers.q8">
+ETHNORELATIVE<br> 
+<strong>Explanation</strong>: This statement demonstrates interest in a different culture and a willingness to learn and
 even adapt to another cultural norm. This statement could fit into the Acceptance or Adaptation stage of the DMIS.</p>
 <hr>
 
 <p>“My student is a beginner in learning English. I’ve learned a few words and phrases in her language to help us 
 communicate the first few classes.” </p>
-<p>ETHNORELATIVE</p>
-<p class="red"><strong>Explanation</strong>: This statement acknowledges the need to meet the student where they are, and even adapt to
+<label class="radio-inline">
+    <input type="radio" name="question1" id="question9-1" value="ethnocentric" (change)="response('q9','ec')">ETHNOCENTRIC
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="question1" id="question9-2" value="ethnorelative" (change)="response('q9','er')">ETHNORELATIVE
+  </label>
+
+<p class="margin-top-15" [ngClass]="answers.q9 == 'er' ? 'green' : 'red'" *ngIf="answers.q9">
+ETHNORELATIVE<br>   
+<strong>Explanation</strong>: This statement acknowledges the need to meet the student where they are, and even adapt to
 the student’s linguistic norms (at least temporarily) to accommodate the beginning learner.</p>
 <hr>
 
 <p>“One student never looks me in the eye. I’ve learned that it’s a sign of respect in her culture.” </p>
-<p>ETHNORELATIVE</p>
-<p class="red"><strong>Explanation</strong>: Instead of moving to a defensive posture when seeing a student behaving in a contrary way, 
+<label class="radio-inline">
+    <input type="radio" name="question1" id="question10-1" value="ethnocentric" (change)="response('q10','ec')">ETHNOCENTRIC
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="question1" id="question10-2" value="ethnorelative" (change)="response('q10','er')">ETHNORELATIVE
+  </label>
+
+<p class="margin-top-15" [ngClass]="answers.q10 == 'er' ? 'green' : 'red'" *ngIf="answers.q10">
+ETHNORELATIVE<br> 
+<strong>Explanation</strong>: Instead of moving to a defensive posture when seeing a student behaving in a contrary way, 
 the speaker investigated the cultural norms of the student. This showed interest in other cultures and placement 
 of the speaker’s culture as relative to others.</p>
 <hr>
