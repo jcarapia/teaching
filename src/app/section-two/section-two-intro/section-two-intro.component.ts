@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+declare var $ : any;
 @Component({
   selector: 'app-section-two-intro',
   templateUrl: './section-two-intro.component.html',
@@ -10,6 +11,7 @@ export class SectionTwoIntroComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $('#introTwoModal').modal('show');
   }
 
 }

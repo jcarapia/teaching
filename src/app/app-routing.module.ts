@@ -44,7 +44,7 @@ import { SectionFourWrapUpComponent } from './section-four/section-four-wrap-up/
 import { SectionFiveComponent } from './section-five/section-five.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponentComponent },
+  { path: '', component: HomeComponentComponent },
   { path: 'sectionOne', component: SectionOneComponent  },
   { path: 'sectionOneIntro', component: SectionOneIntroComponent },
   { path: 'sectionOneThoughts', component: SectionOneThoughtsComponent },
