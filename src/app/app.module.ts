@@ -42,6 +42,7 @@ import { SectionFourActivityComponent } from './section-four/section-four-activi
 import { SectionFourDmisEmpathyComponent } from './section-four/section-four-dmis-empathy/section-four-dmis-empathy.component';
 import { SectionFourReferencesComponent } from './section-four/section-four-references/section-four-references.component';
 import { SectionFourWrapUpComponent } from './section-four/section-four-wrap-up/section-four-wrap-up.component';
+import { SectionSixComponent } from './section-six/section-six.component';
 
 @NgModule({
   declarations: [
@@ -82,7 +83,8 @@ import { SectionFourWrapUpComponent } from './section-four/section-four-wrap-up/
     SectionFourActivityComponent,
     SectionFourDmisEmpathyComponent,
     SectionFourReferencesComponent,
-    SectionFourWrapUpComponent
+    SectionFourWrapUpComponent,
+    SectionSixComponent
   ],
   imports: [
     BrowserModule,

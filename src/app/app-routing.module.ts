@@ -43,6 +43,8 @@ import { SectionFourWrapUpComponent } from './section-four/section-four-wrap-up/
 
 import { SectionFiveComponent } from './section-five/section-five.component';
 
+import { SectionSixComponent } from './section-six/section-six.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponentComponent },
   { path: 'sectionOne', component: SectionOneComponent  },
@@ -85,6 +87,8 @@ const routes: Routes = [
   { path: 'sectionFourWrapUp', component: SectionFourWrapUpComponent },
   
   { path: 'sectionFive', component: SectionFiveComponent  },
+
+  { path: 'test', component: SectionSixComponent }
 ];
 
 @NgModule({
