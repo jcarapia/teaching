@@ -15,4 +15,12 @@ export class SectionThreeIntroComponent implements OnInit {
     $('[data-toggle="popover"]').popover();
   }
 
+  ngOnDestroy() {
+    console.log('destroying');
+    var els = document.getElementsByClassName("popover");
+    for(var i = 0, all = els.length; i < all; i++){   
+         els[i].classList.add('invisible');
+     }
+  }
+
 }
